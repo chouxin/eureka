@@ -1,0 +1,15 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: demo-server1
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      #defaultZone: http://peer2:8002/eureka,http://peer3:8003/eureka
+      defaultZone: http://localhost:8001/eureka/
