@@ -19,6 +19,9 @@ public class HelloController {
     public String Hello(@RequestParam("name") String name){
         return "hello " + name + "，this is demo-client2 messge";
     }
+
+
+
 }
 
 
