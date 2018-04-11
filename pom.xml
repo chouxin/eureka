@@ -85,6 +85,9 @@
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
             <url>https://repo.spring.io/milestone</url>
+            <!--<id>ui</id>-->
+            <!--<name>maven-centra</name>-->
+            <!--<url>http://localhost:7777/repository/maven-central/</url>-->
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
